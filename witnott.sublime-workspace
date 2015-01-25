@@ -1,0 +1,607 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"has",
+				"hasDied"
+			],
+			[
+				"lai",
+				"landingSite"
+			],
+			[
+				"ter",
+				"terrainInstance"
+			],
+			[
+				"in",
+				"inLandingSite"
+			],
+			[
+				"landin",
+				"landingSite"
+			],
+			[
+				"terrain",
+				"terrainPath"
+			],
+			[
+				"te",
+				"terrainPoints"
+			],
+			[
+				"lan",
+				"landingSitePoint"
+			],
+			[
+				"la",
+				"landingSite"
+			],
+			[
+				"land",
+				"landingHeight"
+			],
+			[
+				"lain",
+				"landingSiteBase"
+			],
+			[
+				"ship",
+				"shipInstance"
+			],
+			[
+				"die",
+				"dieAlpha"
+			],
+			[
+				"dying",
+				"dyingTimer"
+			],
+			[
+				"terr",
+				"terrainInstance"
+			],
+			[
+				"debug",
+				"debugLines"
+			],
+			[
+				"max",
+				"maxAngle"
+			],
+			[
+				"angle",
+				"angleBetween"
+			],
+			[
+				"angl",
+				"angleBetween"
+			],
+			[
+				"ro",
+				"rotateSpeed"
+			],
+			[
+				"del",
+				"deltaGravity"
+			],
+			[
+				"min",
+				"minGravity"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"new",
+				"newPosition"
+			],
+			[
+				"time",
+				"timestep"
+			],
+			[
+				"pr",
+				"previousPosition"
+			],
+			[
+				"th",
+				"thrust"
+			],
+			[
+				"hash",
+				"hashInts"
+			],
+			[
+				"edge",
+				"edgeHashes"
+			],
+			[
+				"edg",
+				"edgeCount"
+			],
+			[
+				"tri",
+				"triangles"
+			],
+			[
+				"gri",
+				"gridSize"
+			],
+			[
+				"gener",
+				"generatePoints"
+			],
+			[
+				"grid",
+				"gridIndex"
+			],
+			[
+				"ne",
+				"nextPoint"
+			],
+			[
+				"ran",
+				"randomPoint"
+			],
+			[
+				"fir",
+				"firstPoint"
+			],
+			[
+				"scrol",
+				"scrollAmount"
+			],
+			[
+				"Un",
+				"UnsubscriptionTime"
+			],
+			[
+				"Uns",
+				"Unsubscribed"
+			],
+			[
+				"un",
+				"UnsubscriptionTime"
+			],
+			[
+				"Subs",
+				"Subscription"
+			],
+			[
+				"dec",
+				"decUnsubLink"
+			],
+			[
+				"regex",
+				"regexUnsub"
+			],
+			[
+				"Dec",
+				"DecTest"
+			],
+			[
+				"enc",
+				"encUnsubLink"
+			],
+			[
+				"next",
+				"nextidData"
+			],
+			[
+				"nex",
+				"nextidName"
+			],
+			[
+				"Get",
+				"GetCollection"
+			],
+			[
+				"Value",
+				"ValueVisitor"
+			],
+			[
+				"opGet",
+				"opGetNum"
+			],
+			[
+				"newsub",
+				"newSubExtern"
+			],
+			[
+				"Sub",
+				"SubscriptionExtern"
+			],
+			[
+				"get",
+				"getCustomers"
+			],
+			[
+				"main",
+				"mainTemplate"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.htm",
+			"settings":
+			{
+				"buffer_size": 702,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 39,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/lunarlander.js",
+			"settings":
+			{
+				"buffer_size": 10298,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/remigillig/GitHub/witnott",
+		"/Users/remigillig/GitHub/witnott/css",
+		"/Users/remigillig/GitHub/witnott/js"
+	],
+	"file_history":
+	[
+		"/Users/remigillig/GitHub/witnott/js/exitvel.js",
+		"/Users/remigillig/GitHub/witnott/js/paper-full.js",
+		"/Users/remigillig/Documents/paperjs-v0.9.21/examples/Games/Paperoids.html",
+		"/Users/remigillig/Unity/Demarcation/Assets/MapGenerator.cs",
+		"/Users/remigillig/Documents/paperjs-v0.9.21/examples/Animated/Lines.html",
+		"/Users/remigillig/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/remigillig/GitHub/witnott/js/test.js",
+		"/Users/remigillig/GitHub/witnott/js/ajax.js",
+		"/Users/remigillig/Documents/paperjs-v0.9.21/docs/assets/js/docs.js",
+		"/Users/remigillig/GitHub/witnott/index.htm",
+		"/Users/remigillig/GitHub/photosphere/gaustatoppen.html",
+		"/Users/remigillig/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/remigillig/Perforce/PaperPlane/unity/Assets/Scripts/Utils/Maths.cs",
+		"/Users/remigillig/Perforce/PaperPlane/unity/Assets/Scripts/Utils/PoissonDiscSampler.cs",
+		"/Users/remigillig/Documents/paperjs-v0.9.21/examples/Animated/BooleanOperations.html",
+		"/Users/remigillig/GitHub/delaunay/delaunay.js",
+		"/Users/remigillig/GitHub/mapgen2/third-party/as3delaunay/src/com/nodename/Delaunay/Voronoi.as",
+		"/Users/remigillig/GitHub/paperplane-website/ppgo/collection.go",
+		"/Users/remigillig/GitHub/paperplane-website/ppgo/store.go",
+		"/Users/remigillig/GitHub/paperplane-website/ppgo/main.go",
+		"/Users/remigillig/GitHub/paperplane-website/ppgo/static/index.html",
+		"/Users/remigillig/GitHub/paperplane-website/.gitignore",
+		"/Users/remigillig/GitHub/paperplane-website/ppgo/static/app/app.js",
+		"/Users/remigillig/GitHub/paperplane-website/ppgo/build.sh",
+		"/Users/remigillig/GitHub/paperplane-website/ppgo/run.sh",
+		"/Users/remigillig/GitHub/paperplane-website/ppgo/static/partial-home.html",
+		"/Users/remigillig/GitHub/paperplane-website/ppgo/static/partial-subscribe.html",
+		"/Users/remigillig/GitHub/paperplane-website/ppgo/static/partial-unsubscribe.html",
+		"/Users/remigillig/GitHub/paperplane-website/ppgo/newsletter.go",
+		"/Users/remigillig/Downloads/DesignerWorlds-master/README",
+		"/Users/remigillig/GitHub/paperplane-website/ppgo/static.go",
+		"/Users/remigillig/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
+		"/Users/remigillig/GitHub/paperplane-website/ppgo/static/templates/newsletter.html",
+		"/Users/remigillig/Documents/oauth2.py",
+		"/Users/remigillig/GitHub/paperplane-website/ppgo/extensions.go",
+		"/Users/remigillig/GitHub/paperplane-website/ppgo/static/templates/view2.html",
+		"/Users/remigillig/GitHub/paperplane-website/ppgo/static/form.html",
+		"/Users/remigillig/GitHub/paperplane-website/ppgo/static/js/app.js",
+		"/Users/remigillig/GitHub/paperplane-website/ppgo/templates/main.html",
+		"/Users/remigillig/GitHub/paperplane-website/ppgo/templates/newsletter-form.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/remigillig/Documents/paperjs-v0.9.21"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			", [2, 0]",
+			"terrainPath.segments",
+			"red",
+			"matrix",
+			"newPosition",
+			"thrustChangeSpeed",
+			"shipScale",
+			"path",
+			"lunarlander",
+			"paper.",
+			"ajaxPaperScript",
+			"readyState",
+			"paper.",
+			"LunarLander",
+			"llS",
+			"text/paperscript",
+			"true",
+			"vertices",
+			"256.7479215163072, 81.52727419274021, 150.7534326282186, 145.11425133750828, 279.25667039006174, 203.93256481806532, 150.7534326282186, 145.11425133750828, 168.12012519221753, 289.30209330283105, 279.25667039006174, 203.93256481806532, 123.2659817519228, 38.16700416410802, 150.7534326282186, 145.11425133750828, 256.7479215163072, 81.52727419274021, 123.2659817519228, 38.16700416410802, 40.01130909213467, 102.04390720136644, 150.7534326282186, 145.11425133750828, 150.7534326282186, 145.11425133750828, 49.474439744741076, 188.59517420145664, 168.12012519221753, 289.30209330283105, 40.01130909213467, 102.04390720136644, 49.474439744741076, 188.59517420145664, 150.7534326282186, 145.11425133750828]",
+			" ",
+			"moveTo",
+			"points",
+			" <span style=\"color:#f00;\"><b>Player 1</b></span> Use <b>&#8592;</b> and <b>&#8594;</b>.",
+			"Score",
+			"Game",
+			"ivew",
+			"time.Now()",
+			"button",
+			"00000000",
+			"nextid",
+			"values",
+			"newSub",
+			"minItem",
+			"Customer",
+			"newCustomer",
+			"Cust",
+			"id",
+			"SimpleController",
+			"Nantes",
+			"\"\n",
+			"mainTemplate",
+			"e",
+			"mainTemplate",
+			"tmpl"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.htm",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 702,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								588,
+								588
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 39,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								39,
+								39
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/lunarlander.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10298,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2506,
+								2506
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 366.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "witnott.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/GitHub/demarcation/demarcation.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 216.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
