@@ -106,9 +106,43 @@ var config = {
 		minGravity: 40,
 		deltaGravity: 10,
 		landingHeight: 5,
-		rotateSpeed: 0.05
+		rotateSpeed: 0.05,
+		ridges: 6
+	},
+	stars: {
+		num: 200,
+		size: 2000,
+		mag: 1
 	}
 };
+
+function StarField() {
+	var points = [];
+	var z = [];
+	for (var i = 0; i < config.stars.num; i++) {
+		points.push((Point.random() - 0.5) * config.stars.size);
+		z.push(Math.random());
+	}
+
+	var items = points.map(function(item, index, a) {
+		var alpha = index / a.length;
+		var c = new Path.Circle({
+			position: item,
+			radius: z[index] * config.stars.mag + 1
+		});
+		c.fillColor = '#999';
+		return c;
+	});
+
+	this.advance = function() {
+		for (var i = 0; i < items.length; i++) {
+			var p = points[i] - view.center * (z[i] - 1);
+			if (view.bounds.contains(p)) {
+				items[i].position = p;
+			}
+		}
+	};
+}
 
 function Ship() {
 	var shipModule = new CompoundPath();
@@ -331,6 +365,24 @@ function Terrain() {
 	terrainPath.strokeColor = 'white';
 	terrainPath.fillColor = 'black';
 
+	var ridges = [];
+	for (var i = 0; i < config.terrain.ridges; i++) {
+		var alpha = i / config.terrain.ridges;
+		var newPoints = terrainPoints.map(function(item) {
+			return item * (1 - alpha * alpha) * 0.8 + Math.random() * 0.2;
+		});
+		var randStart = Math.floor(Math.random() * newPoints.length);
+		var randEnd = (randStart + Math.floor(Math.random() * newPoints.length * 2)) % newPoints.length;
+		newPoints = newPoints.splice(Math.min(randStart, randEnd), newPoints.length - Math.max(randStart, randEnd));
+		var ridgePath = new Path(newPoints);
+		ridgePath.pivot = [0, 0];
+		ridgePath.strokeColor = 'white';
+		ridgePath.strokeColor.red = 1 - alpha;
+		ridgePath.strokeColor.green = 1 - alpha;
+		ridgePath.strokeColor.blue = 1 - alpha;
+		ridges.push(ridgePath);
+	}
+
 	var landingSitePoint = Math.floor(Math.random() * terrain.length / 2);
 	var landingSiteP0 = terrainPoints[landingSitePoint];
 	var landingSiteP1 = terrainPoints[(landingSitePoint+1)%terrain.length];
@@ -347,15 +399,17 @@ function Terrain() {
 
 	this.path = terrainPath;
 
-	var rotSpeed = ((Math.random() - 0.5) * 2) * config.terrain.rotateSpeed;
+	var rotSpeed = (Math.random() < 0.5 ? 1 : -1) * config.terrain.rotateSpeed;
 	this.advance = function() {
 		terrainPath.rotate(rotSpeed);
 		landingSite.rotate(rotSpeed);
+		ridges.forEach(function(item) { item.rotate(rotSpeed); });
 	};
 
 	this.remove = function() {
 		terrainPath.remove();
 		landingSite.remove();
+		ridges.forEach(function(item) { item.remove(); });
 	};
 
 	this.inLandingSite = function(point) {
@@ -363,6 +417,7 @@ function Terrain() {
 	};
 }
 
+var starsInstance = new StarField();
 var terrainInstance = new Terrain();
 var shipInstance;
 
@@ -392,6 +447,7 @@ function onFrame(event) {
 	if (gamestate == 0 || gamestate == 1) {
 		terrainInstance.advance();
 	}
+	starsInstance.advance();
 	if (gamestate == 0) {
 		view.center = [0, 0];
 		if (vtexts.length == 0) {
