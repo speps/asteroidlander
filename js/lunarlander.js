@@ -424,6 +424,7 @@ function onFrame(event) {
 		}
 		if (!shipInstance.hasLanded() && shipInstance.inLandingSite(terrainInstance)) {
 			shipInstance.land();
+			clearTexts();
 			gamestate = 3;
 		}
 		if (shipInstance.hasDied()) {
